@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow:-moz-hidden-unscrollable;
+}
+
+.Main {
+  background-image: url(./images/bg.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  height:100%;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+.words{
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  align-items: center;
+  display: block;
+
+}
+.mainHeading{
+  text-align: center;
+  position: relative;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(9, 90, 145);
+  text-shadow: 2px 2px #4f768d;
+  padding-top: 2%;
+}
+.getStarted{
+  border: 2px solid rgb(21, 64, 104);
+  border-radius: 150px;
+  padding: 10px;
+  width: 152px;
+
+}
+.getStarted:hover{
+  cursor: pointer;
+  border: 2px solid rgb(230, 233, 236);
+  background-color:#0e5a86;
+  transition: 0.3s ease-out;
+  color: #f3f8fc;
+  border-radius: 150px;
+  padding: 10px;
+  width: 20%;
+}
+.featuresContent {
+  background-color:#eef2fc;
+  height: 100%;
+  margin-top:10%;
+  padding-bottom: 45px;
+  box-shadow:15px 5px 10px 5px #465c70;
+}
+.FeatureHeading{
+  margin-top:20px;
+  padding: 30px;
+  color:#0b345a;
+  font-family: cursive;
+  font-weight: 800;
+  font-size:45px;
+}
+.featuresContent h5{
+  text-decoration:underline;
+  padding: 2px;
+}
+.featuresContent i{
+  color: #0b345a;
+}
+.featureWords{
+  text-align: left;
+  padding: 5px;
+}
+.featureLearn{
+  padding: 6px;
+  color: #09183d;
+  border-radius: 10px;
+  font-size: smaller;
+  border: 1px solid #09183d;
+}
+#moreIcon{
+  padding: 5px;
+}
+.why-us{
+  height:100%;
+
+}
+.whyusHeading{
+  color: #09183d;
+  margin-top: 3%;
+  font-size:45px;
+  font-family: cursive;
+  font-weight: 800;
+}
+#whyusContent1{
+  text-align: left;
+  padding: 20px;
+  width: 45%;
+  background-color: #cbe2f0;
+  border-radius: 50px;
+  box-shadow: 5px 8px #243e64;
+  margin: 8px 2% 15px ;
+}
+#whyusContent1 i{
+  color: #082653;
+}
+.cardContent{
+  align-content: space-around;
+  display:flex;
+  flex-direction: row;
+}
+.cardContent p{
+  padding: 15px;
+}
+.cardHeading{
+  padding: 4px;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+.platform{
+  height:100%;
+  background-color: #ecf6fd;
+  padding: 5%;
+  margin-top: 2%;
+}
+.legacyText h3{
+  text-decoration: underline;
+  font-weight:800;
+  font-family: cursive;
+  font-size:xx-large;
+}
+.legacyPhoto img{
+  width: 70%;
+}

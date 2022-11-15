@@ -1,0 +1,37 @@
+.footerMain{
+  background-color: #112647;
+  padding: 10px;
+  bottom: 0;
+  color: #e8ecf3;
+  display: flex;
+flex-direction: row;
+
+}
+.footerMain h1{
+    margin: 1%;
+    text-shadow: 2px 2px #4f768d;
+    padding-left: 10px;
+}
+.footerMain img{
+    border-radius: 120px;
+    border: 4px solid #3a5b91;
+    width: 50%;
+}
+.Copyright{
+    background-color: #244477;
+    height: 100%;
+    padding:10px ;
+    color: #f2f5fa;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 400;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+.socials i{
+    margin-top: 22px;
+    margin-left: 5px;
+}
